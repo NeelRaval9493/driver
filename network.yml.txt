@@ -1,0 +1,7 @@
+root@bsipadev config]# cat network.yml
+version: '2'
+
+networks:
+  default:
+    external:
+      name: ${PAW_NET}
