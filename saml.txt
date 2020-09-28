@@ -1,1 +1,3 @@
 https://iam.twilio.com/v1/Accounts/AC62823dee685574b97d9959081bd40e86/saml2/metadata
+
+Set-AdfsRelyingPartyTrust -TargetIdentifier https://iam.twilio.com/v1/Accounts/AC62823dee685574b97d9959081bd40e86/saml2/metadata -SamlResponseSignature MessageAndAssertion
